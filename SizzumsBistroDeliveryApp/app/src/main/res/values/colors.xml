@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="wall1">#4c4744</color>
+    <color name="ceil1">#d9c0a3</color>
+    <color name="wall5">#2e3134</color>
+    <color name="wall6">#C3AB87</color>
+
+
+    <color name="gray">#808080</color>
+    <color name="green">#00A300</color>
+</resources>

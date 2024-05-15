@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="15dp"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/productimage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/cmtokinawa"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Product name"
+                android:paddingStart="10dp"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textAlignment="gravity"
+                android:gravity="center_vertical"
+                android:textColor="@color/wall1"
+                android:id="@+id/productname"/>
+            <TextView
+                android:id="@+id/productqty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1x"
+                android:textColor="@color/wall1"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:textAlignment="gravity"
+                android:gravity="center_vertical|end"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
